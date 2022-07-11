@@ -92,13 +92,13 @@ button {
   color: white;
 }
 
-.button-checkbox {
+.input-checkbox {
   display: flex;
   justify-content: baseline;
   margin-bottom: 10px;
 }
 
-.button-checkbox label {
+.input-checkbox label {
   font-size: 13px;
   text-align: left;
   padding-left: 3px;
