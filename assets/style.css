@@ -83,7 +83,28 @@ button {
   border-radius: 10px;
   border: 2px solid white;
   font-size: 14px;
+  cursor: pointer;
 }
+
+#button-submit:hover {
+  background-color: #391ce2;
+  transition: 1.2s;
+  color: white;
+}
+
+.button-checkbox {
+  display: flex;
+  justify-content: baseline;
+  margin-bottom: 10px;
+}
+
+.button-checkbox label {
+  font-size: 13px;
+  text-align: left;
+  padding-left: 3px;
+}
+
+
 /* Error and Success*/
 
 .form-control.success input {
